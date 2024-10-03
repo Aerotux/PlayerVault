@@ -1,0 +1,4 @@
+name: PlayerVault
+version: '${project.version}'
+main: net.galacticsmp.playervault.PlayerVault
+api-version: '1.21'
