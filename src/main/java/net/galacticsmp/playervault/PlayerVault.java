@@ -20,6 +20,7 @@ public final class PlayerVault extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        instance = this;
 
         getLogger().info("Enabled.");
         registerCommands();
